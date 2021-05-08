@@ -1,1 +1,12 @@
-# local_manifest
+# Local Manifests for Realme G70 Series #
+
+### Android 11 R based trees ###
+
+```bash
+
+# Grab Local Manifest
+curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/Realme-G70-Series/local_manifest/master/local_manifest.xml --create-dirs
+
+# Sync
+repo sync -j$(nproc --all) --force-sync
+```
