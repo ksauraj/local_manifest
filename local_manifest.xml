@@ -5,6 +5,6 @@
                 fetch="https://github.com/Realme-G70-Series" />
 
         <project path="device/realme/RMX2020" name="device_realme_RMX2020" remote="Realme-G70-Series" revision="11" clone-depth="1" />
-        <project path="vendor/realme/MX2020" name="vendor_realme_RMX2020" remote="Realme-G70-Series" revision="11" clone-depth="1" />
+        <project path="vendor/realme/RMX2020" name="vendor_realme_RMX2020" remote="Realme-G70-Series" revision="11" clone-depth="1" />
 
 </manifest>
