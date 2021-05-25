@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="noob"
-                fetch="https://github.com/noobyysauraj" />
         <remote name="sarthak"
                 fetch="https://github.com/sarthakroy2002" />
 
-        <project path="device/realme/RMX2151" name="device_realme_RMX2151-3" remote="noob" revision="eleven-enforcing" clone-depth="1" />
+        <project path="device/realme/RMX2151" name="device_realme_RMX2151" remote="sarthak" revision="eleven-enforcing" clone-depth="1" />
         <project path="vendor/realme/RMX2151" name="vendor_realme_RMX2151" remote="sarthak" revision="11" clone-depth="1" />
 
 </manifest>
